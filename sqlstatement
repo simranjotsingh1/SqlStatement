@@ -1,0 +1,35 @@
+INSERT INTO student (studentid,studentlastname,studentfirstname)
+VALUES ('1','singh','simranjot');
+
+INSERT INTO student (studentid,studentlastname,studentfirstname)
+VALUES ('2','singh','sahib');
+
+INSERT INTO student (studentid,studentlastname,studentfirstname)
+VALUES ('3','singh','karan');
+
+INSERT INTO student (studentid,studentlastname,studentfirstname)
+VALUES ('4','smith','jones');
+
+INSERT INTO student (studentid,studentlastname,studentfirstname)
+VALUES ('5','singh','satbir');
+
+INSERT INTO student (studentid,studentlastname,studentfirstname)
+VALUES ('6','singh','jashandeep');
+
+INSERT INTO student (studentid,studentlastname,studentfirstname)
+VALUES ('7','singh','surjit');
+
+INSERT INTO student (studentid,studentlastname,studentfirstname)
+VALUES ('8','singh','kartik');
+
+INSERT INTO student (studentid,studentlastname,studentfirstname)
+VALUES ('9','singh','Simar');
+
+INSERT INTO student (studentid,studentlastname,studentfirstname)
+VALUES ('10','singh','Gurwinder');
+
+INSERT INTO student (studentid,studentlastname,studentfirstname)
+VALUES ('11','singh','jass');
+
+INSERT INTO student (studentid,studentlastname,studentfirstname)
+VALUES ('12','singh','kamal');
