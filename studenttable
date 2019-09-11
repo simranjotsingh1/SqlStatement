@@ -1,0 +1,20 @@
+INSERT INTO students(studentid,studentlastname,studentfirstname,programgroup)
+VALUES (101,'singh','simar','group1');
+INSERT INTO students(studentid,studentlastname,studentfirstname,programgroup)
+VALUES (102,'singh','joban','group1');
+INSERT INTO students(studentid,studentlastname,studentfirstname,programgroup)
+VALUES (103,'singh','sahib','group1');
+INSERT INTO students(studentid,studentlastname,studentfirstname,programgroup)
+VALUES (104,'singh','paras','group1');
+INSERT INTO students(studentid,studentlastname,studentfirstname,programgroup)
+VALUES (105,'singh','jashan','group1');
+INSERT INTO students(studentid,studentlastname,studentfirstname,programgroup)
+VALUES (106,'singh','love','group1');
+INSERT INTO students(studentid,studentlastname,studentfirstname,programgroup)
+VALUES (107,'singh','satbir','group1');
+INSERT INTO students(studentid,studentlastname,studentfirstname,programgroup)
+VALUES (108,'singh','shami','group1');
+INSERT INTO students(studentid,studentlastname,studentfirstname,programgroup)
+VALUES (109,'singh','karan','group1');
+INSERT INTO students(studentid,studentlastname,studentfirstname,programgroup)
+VALUES (110,'singh','kamal','group1');
