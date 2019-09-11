@@ -1,0 +1,2 @@
+select students.studentid,groups.classid from students,groups
+where students.programgroup=groups.programgroup
