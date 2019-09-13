@@ -16,3 +16,12 @@ datetimeid VARCHAR (20) NOT NULL,
 coursename VARCHAR (20) NOT NULL,
  PRIMARY KEY (classid)
 );
+
+
+CREATE TABLE programgroup1(
+pgid VARCHAR (20) NOT NULL,
+programgroupname VARCHAR (20) NOT NULL,
+sectionnumber VARCHAR (20) NOT NULL,
+classid VARCHAR (20) NOT NULL,
+ PRIMARY KEY (pgid)
+);
