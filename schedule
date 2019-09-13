@@ -25,3 +25,14 @@ sectionnumber VARCHAR (20) NOT NULL,
 classid VARCHAR (20) NOT NULL,
  PRIMARY KEY (pgid)
 );
+
+
+
+SELECT * from students, programgroup1
+where students.programgroupname=programgroup1.programgroupname;
+
+
+
+update students set programgroupname='CSAT'  where len(studentfirstname) <= 5;
+
+Select * from students;
