@@ -1,0 +1,18 @@
+CREATE TABLE students(
+studentid VARCHAR (20) NOT NULL,
+studentlastname VARCHAR (20) NOT NULL,
+studentfirstname VARCHAR (20) NOT NULL,
+programgroupname VARCHAR (20) NOT NULL,
+term VARCHAR (20) NOT NULL,
+ PRIMARY KEY (studentid)
+);
+
+
+class
+CREATE TABLE classes(
+classid VARCHAR (20) NOT NULL,
+roomid VARCHAR (20) NOT NULL,
+datetimeid VARCHAR (20) NOT NULL,
+coursename VARCHAR (20) NOT NULL,
+ PRIMARY KEY (classid)
+);
