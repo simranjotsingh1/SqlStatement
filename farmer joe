@@ -44,3 +44,24 @@ alter table warehouse
 UPDATE warehouse
 SET item_price = 100
 WHERE item_number ='A101';
+
+join table:
+select *
+ from truck as t,warehouse as w,orders1 as o
+
+where w.item_number = o.item_number and 
+ 
+ select *
+ from truck as t,warehouse as w,orders1 as o
+
+where w.item_number = o.item_number and 
+ 
+ t.truck_number = o.truck_number
+ truck number and item number should be same ::::
+ INSERT INTO orders1 ( order_id, item_number, truck_number) VALUES ( 101, 'A101','A501');
+INSERT INTO orders1( order_id, item_number, truck_number) VALUES ( 102, 'A102','A502');
+INSERT INTO orders1 ( order_id, item_number, truck_number) VALUES ( 103, 'A103','A503')
+INSERT INTO orders1 ( order_id, item_number, truck_number) VALUES ( 104, 'A104','A504');
+INSERT INTO orders1 ( order_id, item_number, truck_number) VALUES ( 105, 'A105','A505');
+INSERT INTO orders1 ( order_id, item_number, truck_number ) VALUES ( 106, 'A106','A506');
+ t.truck_number = o.truck_number
