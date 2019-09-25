@@ -29,3 +29,18 @@ INSERT INTO truck ( truck_number, deriver_name, order_number) VALUES ( 'A503', '
 INSERT INTO truck ( truck_number, deriver_name, order_number) VALUES ( 'A504', 'Bichon',4);
 INSERT INTO truck ( truck_number, deriver_name, order_number) VALUES ( 'A505', 'Smith', 5);
 INSERT INTO truck ( truck_number, deriver_name, order_number ) VALUES ( 'A506', 'Kirk', 6);
+NSERT INTO warehouse ( item_number, itemdescription, shelvenumber, Quantity_in_stock,item_price ) VALUES ( 'A101', 'Smith', 'John', 1,100);
+INSERT INTO warehouse ( item_number, itemdescription, shelvenumber, Quantity_in_stock,item_price ) VALUES ( 'A102', 'Jones', 'Mike', 15,80);
+INSERT INTO warehouse ( item_number, itemdescription, shelvenumber, Quantity_in_stock,item_price ) VALUES ( 'A103', 'Smith', 'Susan', 25,90);
+INSERT INTO warehouse ( item_number, itemdescription, shelvenumber, Quantity_in_stock,item_price ) VALUES ( 'A104', 'Bichon', 'Peanut', 40,50);
+INSERT INTO warehouse ( item_number, itemdescription, shelvenumber, Quantity_in_stock,item_price ) VALUES ( 'A105', 'Smith', 'John', 10,60);
+INSERT INTO warehouse ( item_number, itemdescription, shelvenumber, Quantity_in_stock,item_price ) VALUES ( 'A106', 'Kirk', 'James', 50,110);
+
+select * from warehouse;
+alter table warehouse
+ Add item_price money;
+
+ select * from warehouse;
+UPDATE warehouse
+SET item_price = 100
+WHERE item_number ='A101';
